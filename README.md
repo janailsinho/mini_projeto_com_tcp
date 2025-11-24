@@ -2,7 +2,7 @@
 
 Este projeto consiste na implementação de um sistema de chat cliente-servidor utilizando **Sockets TCP**. O sistema permite que múltiplos clientes se conectem a uma sala única, troquem mensagens em tempo real e visualizem o histórico recente de conversas ao entrar.
 
-O projeto foi desenvolvido para a disciplina de Infraestrutura de Comunicação, atendendo aos requisitos de conexão persistente e confiabilidade nativa do protocolo TCP.
+O projeto foi desenvolvido para a disciplina CIN0143, atendendo aos requisitos de conexão persistente e confiabilidade nativa do protocolo TCP.
 
 ## 📋 Funcionalidades
 
@@ -22,7 +22,7 @@ O projeto foi desenvolvido para a disciplina de Infraestrutura de Comunicação,
 
 Certifique-se de ter o **Python 3** instalado.
 
-### 1. Iniciando o Servidor
+###  Iniciando o Servidor e o Cliente
 Abra um terminal na pasta do projeto e execute:
 
 ```bash
@@ -30,7 +30,9 @@ python servidor.py
 
 O servidor iniciará na porta 5000 e aguardará conexões.
 
-2. Iniciando um Cliente
+  Iniciando o Servidor
+
+Iniciando um Cliente
 Abra um novo terminal (para cada usuário) e execute:
 
 python cliente.py
@@ -65,14 +67,11 @@ PORT: Porta (Padrão: 5000).
 HISTORY_SIZE: Quantidade de mensagens salvas no histórico (Padrão: 100).
 
 👥 Autores - Equipe 11
+
 Jorge Guilherme
-
 José Janailson
-
 Kleberson de Araujo Bezerra
-
 Lucas dos Santos da Silva
-
 Sofia Ribeiro de Santana
 
 
