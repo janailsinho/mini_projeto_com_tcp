@@ -30,7 +30,7 @@ python servidor.py
 
 O servidor iniciará na porta 5000 e aguardará conexões.
 
-  Iniciando o Servidor
+Iniciando o Servidor
 
 Iniciando um Cliente
 Abra um novo terminal (para cada usuário) e execute:
